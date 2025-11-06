@@ -21,25 +21,35 @@ This dashboard answers:
 
 | Tool / Technology | Purpose |
 |------------------|---------|
-| **Power BI** | Data cleaning, data modeling, and dashboard development |
+| **Power BI** | Data cleaning, data modeling, dashboard development |
 | **GitHub** | Project hosting and version tracking |
 
-> Data preprocessing and transformation were done inside Power BI using the Power Query Editor and DAX (only where needed).
+> Data transformation was done in **Power Query Editor** and modeling in Power BI.
 
 ---
 
 ## 📂 Repository Contents
 
-| File | Description |
-|------|-------------|
-| `goodreads_dashboard.pbit` | Power BI dashboard template (without data) |
+| File / Folder | Description |
+|---------------|-------------|
+| `goodreads_dashboard.pbit` | Power BI dashboard template (no data) |
+| `images/` | Contains dashboard screenshot(s) for reference |
 | `README.md` | Documentation of the project |
 
-> ⚠️ Dataset is not included due to size/licensing limitations.
+> ⚠️ Dataset not included due to size/licensing restrictions.
 
 ---
 
 ## ✨ Dashboard Features
 
 - KPI Cards: Total Books, Total Pages, Total Ratings, Total Reviews
-- Top 10 highest-
+- Top 10 highest-rated books visualization
+- Most reviewed books visualization
+- Pages vs Rating correlation (scatter)
+- Slicers for Author, Genre, Year, Binding Type
+
+---
+
+### ✅ Status: Completed
+
+If you found this dashboard useful, ⭐ star the repository.
